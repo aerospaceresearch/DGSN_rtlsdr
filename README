@@ -1,0 +1,39 @@
+rtl-sdr BOINC application bundle
+
+=========================================================================
+
+This software is developed upon keenerd's rtl-sdr program:
+
+https://github.com/keenerd/rtl-sdr
+
+=========================================================================
+
+The purpose of this application is to allow users to be able to plug in their USB bundle, record signals they receive and store them for later use. They also have the option to apply simple decoding / signal processing on the raw IQ values they receive.
+
+=========================================================================
+
+Dependencies:
+
+libbusb-1.0-0-dev
+
+=========================================================================
+
+Steps:
+
+1. If you install your USB dongle for the first time, run sudo sh ./setup.sh, else skip this step
+
+2. run sh ./run.sh
+
+=========================================================================
+
+parse.py could be used in conjunction with SDR#, it takes a 16-bit wmv waveform and performs fft on it.
+
+It is developed by https://gist.github.com/anonymous/f5f23f8495949b3fdd0f
+
+parse_binary.py could be used on the binary file recorded by this application bundle, it takes a 8-bit raw IQ binary file and performs fft on the recorded I and Q data.
+
+=========================================================================
+
+
+
+

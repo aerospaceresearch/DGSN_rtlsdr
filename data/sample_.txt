@@ -1,0 +1,11 @@
+cordingtime=5
+frequency=86.4M
+sample_rate=1500000
+device_index=0
+gain=-100
+ppm_error=
+output_block_size=
+num_samples=
+sync_output=
+sampling_mode=
+filename=../data/rtl_out
